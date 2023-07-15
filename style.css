@@ -161,13 +161,6 @@ margin: 0 auto;
     margin: 40px 0;
 }
 }
-@media (max-width:350px){
-.start-funct {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill,minmax(128px,1fr));
-}
-}
 @media (max-width:505px){
 .second-ul{
   display:none;
@@ -179,6 +172,11 @@ margin: 0 auto;
 }
 }
 @media (max-width:350px){
+.start-funct {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(128px,1fr));
+}
 .first-ul a:last-child {
   display:none;
 }
